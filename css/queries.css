@@ -1,0 +1,819 @@
+@media only screen and (min-width: 1600px) {
+	body {
+		font-size: 25px;
+	}
+
+	.intro {
+		font-size: 2.5rem;
+	}
+
+	.heroTile {
+		font-size: 20rem;
+	}
+
+	.tile1 {
+		font-size: 14rem;
+	}
+
+	.toggleMenu,
+	.toggleMenu.active {
+		width: 5rem;
+		height: 5rem;
+		background-size: 5rem;
+	}
+
+	.logo,
+	.logo:hover {
+		width: 5rem;
+		height: 5rem;
+		background-size: 5rem;
+	}
+
+	.card {
+		width: 55rem;
+	}
+}
+
+@media only screen and (max-width: 1402px) {
+	body {
+		font-size: 16px;
+	}
+
+	header,
+	.section1 {
+		min-height: 40rem;
+		height: 100vh;
+	}
+
+	.heroTile {
+		font-size: 14rem;
+	}
+
+	.tile1 {
+		font-size: 8rem;
+	}
+
+	.card {
+		width: 40rem;
+	}
+
+	.project-tile,
+	.about-tile {
+		text-align: center;
+		margin-left: 8rem;
+	}
+}
+
+@media only screen and (max-width: 1238px) {
+	.heroTile {
+		font-size: 13rem;
+	}
+
+	.tile1 {
+		font-size: 7rem;
+	}
+
+	.card {
+		width: 35rem;
+	}
+
+	.intro {
+		font-size: 2rem;
+	}
+
+	.direct-text {
+		font-size: 1.8rem;
+	}
+
+	.social {
+		font-size: 2.5rem;
+		margin: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 1142px) {
+	.heroTile {
+		font-size: 12rem;
+	}
+
+	.tile1 {
+		font-size: 6rem;
+	}
+
+	.social {
+		font-size: 2rem;
+		margin: 0.8rem;
+	}
+
+	.scroll-asset {
+		width: 6rem;
+	}
+}
+
+@media only screen and (max-width: 1092px) {
+	body {
+		font-size: 14px;
+	}
+
+	.section2 {
+		min-height: 60rem;
+		height: 100vh;
+		margin-bottom: 10vh;
+	}
+
+	.heroTile {
+		font-size: 11rem;
+	}
+
+	.tile1 {
+		font-size: 5rem;
+	}
+
+	.card {
+		width: 33rem;
+	}
+
+	.project-tile,
+	.about-tile {
+		text-align: center;
+		margin-left: 7rem;
+		font-size: 9rem;
+	}
+}
+
+@media only screen and (max-width: 1023px) {
+	.card {
+		margin-left: 15%;
+		width: 50rem;
+	}
+
+	.card2 {
+		transform: translate(0.5rem, 0%);
+		-webkit-transform: translate(0.5rem, 0%);
+		-moz-transform: translate(0.5rem, 0%);
+		-ms-transform: translate(0.5rem, 0%);
+		-o-transform: translate(0.5rem, 0%);
+	}
+
+	.nav-el {
+		font-size: 2rem;
+	}
+
+	.nav-el:hover {
+		font-size: 2.2rem;
+	}
+
+	footer span {
+		font-size: 0.7rem;
+	}
+
+	.footer-social {
+		font-size: 1.6rem;
+	}
+
+	.footer-social a {
+		margin: 0.1rem;
+	}
+}
+
+@media only screen and (max-width: 970px) {
+	body {
+		font-size: 12px;
+	}
+
+	.heroTile {
+		font-size: 10rem;
+	}
+
+	.tile1 {
+		font-size: 4rem;
+	}
+
+	.project-tile,
+	.about-tile {
+		text-align: center;
+		margin-left: 7rem;
+		font-size: 7rem;
+	}
+
+	.about-sec p {
+		padding: 0 10rem;
+		font-size: 1.8rem;
+	}
+
+	.intro {
+		font-size: 1.6rem;
+	}
+
+	.direct-text {
+		font-size: 1.2rem;
+	}
+
+	.card {
+		margin-left: 22%;
+		width: 38rem;
+	}
+}
+
+@media only screen and (max-width: 920px) {
+	.social {
+		margin-left: 0.2rem;
+	}
+
+	.social-contain {
+		margin-left: 35vw;
+	}
+
+	.fa-instagram {
+		margin-left: 0.8rem;
+	}
+
+	.skill {
+		margin: 2rem 1rem;
+	}
+
+	.progress {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 886px) {
+	/* .heroTile {
+		font-size: 9.8rem;
+	} */
+
+	.tile1 {
+		font-size: 7rem;
+	}
+
+	.project-tile,
+	.about-tile {
+		margin-left: 4rem;
+		font-size: 6rem;
+		line-height: 5rem;
+	}
+
+	.about-sec p {
+		font-size: 1.5rem;
+	}
+
+	.direct-text {
+		font-size: 1rem;
+	}
+
+	.card {
+		margin-left: 22%;
+		width: 34rem;
+	}
+
+	.card-text {
+		font-size: 2.6rem;
+	}
+
+	.toggleMenu,
+	.toggleMenu:hover,
+	.toggleMenu.active {
+		width: 2.5rem;
+		height: 2.5rem;
+		background-size: 2.5rem;
+	}
+}
+
+@media only screen and (max-width: 886px) {
+	.name {
+		position: fixed;
+		z-index: 10;
+		transform: translate(38vw, 0px);
+		-webkit-transform: translate(38vw, 0px);
+		-moz-transform: translate(38vw, 0px);
+		-ms-transform: translate(38vw, 0px);
+		-o-transform: translate(38vw, 0px);
+	}
+
+	body,
+	html {
+		margin: 0;
+		padding: 0;
+	}
+
+	header,
+	.section1 {
+		min-height: 90vh;
+		height: 90vh;
+	}
+
+	.nav {
+		margin-top: -2rem;
+		min-height: 2rem;
+		width: 100%;
+		height: 58px;
+		transform: translate(0);
+		-webkit-transform: translate(0);
+		-moz-transform: translate(0);
+		-ms-transform: translate(0);
+		-o-transform: translate(0);
+	}
+
+	.social-contain {
+		margin-left: 46vw;
+		margin-top: 5rem;
+	}
+
+	.nav.active {
+		width: 100%;
+		height: 42%;
+	}
+
+	.logo,
+	.logo:hover {
+		background-size: 3rem;
+		transform: translate(0px, -16px);
+		-webkit-transform: translate(0px, -16px);
+		-moz-transform: translate(0px, -16px);
+		-ms-transform: translate(0px, -16px);
+		-o-transform: translate(0px, -16px);
+	}
+
+	.toggleMenu,
+	.toggleMenu:hover {
+		transform: translate(86vw, -4.5rem);
+		margin-top: 0;
+		-webkit-transform: translate(86vw, -4.5rem);
+		-moz-transform: translate(86vw, -4.5rem);
+		-ms-transform: translate(86vw, -4.5rem);
+		-o-transform: translate(86vw, -4.5rem);
+	}
+
+	.el1 {
+		transform: translate(12vw, -1em);
+		-webkit-transform: translate(12vw, -1em);
+		-moz-transform: translate(12vw, -1em);
+		-ms-transform: translate(12vw, -1em);
+		-o-transform: translate(12vw, -1em);
+	}
+
+	.el2 {
+		transform: translate(12vw, 1em);
+		-webkit-transform: translate(12vw, 1em);
+		-moz-transform: translate(12vw, 1em);
+		-ms-transform: translate(12vw, 1em);
+		-o-transform: translate(12vw, 1em);
+	}
+
+	.el3 {
+		transform: translate(12vw, 3em);
+		-webkit-transform: translate(12vw, 3em);
+		-moz-transform: translate(12vw, 3em);
+		-ms-transform: translate(12vw, 3em);
+		-o-transform: translate(12vw, 3em);
+	}
+
+	.menu-overlay {
+		width: 100%;
+		height: 100%;
+	}
+
+	.tile2 {
+		transform: translate(4vw, 8vh);
+		-webkit-transform: translate(4vw, 8vh);
+		-moz-transform: translate(4vw, 8vh);
+		-ms-transform: translate(4vw, 8vh);
+		-o-transform: translate(4vw, 8vh);
+	}
+
+	.tile3 {
+		transform: translate(4vw, 28vh);
+		-webkit-transform: translate(4vw, 28vh);
+		-moz-transform: translate(4vw, 28vh);
+		-ms-transform: translate(4vw, 28vh);
+		-o-transform: translate(4vw, 28vh);
+	}
+
+	.tile4 {
+		transform: translate(4vw, 48vh);
+		-webkit-transform: translate(4vw, 48vh);
+		-moz-transform: translate(4vw, 48vh);
+		-ms-transform: translate(4vw, 48vh);
+		-o-transform: translate(4vw, 48vh);
+	}
+
+	.tile5 {
+		transform: translate(4vw, 68vh);
+		-webkit-transform: translate(4vw, 68vh);
+		-moz-transform: translate(4vw, 68vh);
+		-ms-transform: translate(4vw, 68vh);
+		-o-transform: translate(4vw, 68vh);
+	}
+
+	.intro {
+		width: 74vw;
+		margin-left: 12%;
+	}
+
+	.project-tile,
+	.about-tile {
+		min-width: 86vw;
+		padding-top: 9rem;
+		text-align: center;
+		margin: 0;
+		margin-left: 0;
+		transform: translate(5vw, 0vh);
+	}
+
+	.about-sec {
+		width: 95vw;
+	}
+
+	.dp {
+		margin-left: 42vw;
+	}
+
+	section,
+	.section1 {
+		padding-top: 68px;
+	}
+
+	.card-title {
+		font-size: 1rem;
+	}
+
+	.card-text {
+		font-size: 1.8rem;
+		margin-bottom: 1rem;
+	}
+
+	.card {
+		width: 40rem;
+	}
+
+	.about-sec p {
+		padding: 0 12rem;
+	}
+
+	footer {
+		/* text-align: center; */
+		padding-left: 3rem;
+	}
+
+	footer hr {
+		width: 100%;
+		margin-left: 0rem;
+	}
+
+	body,
+	html {
+		font-size: 11px;
+	}
+
+	.nav-el {
+		padding-left: 0;
+	}
+
+	.skill {
+		margin: 2rem 1.5rem;
+	}
+
+	.skills {
+		margin-left: 4rem;
+	}
+
+	.progress {
+		width: 80%;
+		margin: 5rem 0 0 8rem;
+	}
+
+	.sign {
+		margin-right: -8vw;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+
+	html,
+	body {
+		font-size: 10px;
+	}
+
+	.card {
+		margin-left: 20%;
+	}
+
+	.dp {
+		margin-left: 37vw;
+	}
+
+	.about-sec p {
+		padding: 0 6rem;
+	}
+
+	.sign {
+		margin-right: -3vw;
+	}
+
+	.progress {
+		margin: 5rem 0 0 6rem;
+	}
+
+	.skills {
+		margin-left: -1rem;
+	}
+
+	.intro,
+	.about-sec p {
+		font-size: 2.6rem;
+	}
+}
+
+@media only screen and (max-width: 653px) {
+
+	html,
+	body {
+		font-size: 9px;
+	}
+
+	.logo,
+	.logo:hover {
+		background-size: 3.2rem;
+		transform: translate(0px, -8px);
+		-webkit-transform: translate(0px, -8px);
+		-moz-transform: translate(0px, -8px);
+		-ms-transform: translate(0px, -8px);
+		-o-transform: translate(0px, -8px);
+	}
+
+	.section2 {
+		margin-bottom: 0;
+	}
+
+	section {
+		padding: 0;
+	}
+
+	.about-tile {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width: 586px) {
+
+	html,
+	body {
+		font-size: 8px;
+	}
+}
+
+@media only screen and (max-width: 525px) {
+
+	html,
+	body {
+		font-size: 7.5px;
+	}
+
+	.section2 {
+		height: 100vh;
+		margin-bottom: 10%;
+	}
+
+	.section3 {
+		padding-top: 20%;
+	}
+
+	.tile2 {
+		transform: translate(8vw, 26vh);
+		-webkit-transform: translate(8vw, 26vh);
+		-moz-transform: translate(8vw, 26vh);
+		-ms-transform: translate(8vw, 26vh);
+		-o-transform: translate(8vw, 26vh);
+	}
+
+	.tile3 {
+		transform: translate(8vw, 38vh);
+		-webkit-transform: translate(8vw, 38vh);
+		-moz-transform: translate(8vw, 38vh);
+		-ms-transform: translate(8vw, 38vh);
+		-o-transform: translate(8vw, 38vh);
+	}
+
+	.tile4 {
+		transform: translate(8vw, 50vh);
+		-webkit-transform: translate(8vw, 50vh);
+		-moz-transform: translate(8vw, 50vh);
+		-ms-transform: translate(8vw, 50vh);
+		-o-transform: translate(8vw, 50vh);
+	}
+
+	.tile5 {
+		transform: translate(8vw, 62vh);
+		-webkit-transform: translate(8vw, 62vh);
+		-moz-transform: translate(8vw, 62vh);
+		-ms-transform: translate(8vw, 62vh);
+		-o-transform: translate(8vw, 62vh);
+	}
+
+	.about-sec p {
+		font-size: 3.6rem;
+	}
+
+	.dp {
+		width: 28rem;
+		height: 28rem;
+		margin-left: 28vw;
+	}
+
+	.social {
+		margin-left: 2.2rem;
+		font-size: 4rem;
+	}
+
+	.social-contain {
+		margin-left: 12vw;
+	}
+
+	.social-contain hr {
+		width: 0%;
+	}
+
+	.nav-el {
+		font-size: 4rem;
+	}
+
+	.nav-el:hover {
+		font-size: 4.2rem;
+	}
+
+	.skill {
+		font-size: 1.5rem;
+	}
+
+	.card {
+		width: 54rem;
+		margin-left: 15%;
+	}
+
+	.card-text {
+		font-size: 3.8rem;
+	}
+
+	.card-title {
+		font-size: 3rem;
+	}
+
+	.card-text-1 {
+		font-size: 2rem;
+	}
+
+	.card2 {
+		transform: translate(0.5rem, 30%);
+	}
+
+	.card1 {
+		margin-top: 10rem;
+	}
+
+	.project-tile,
+	.about-tile {
+		font-size: 10rem;
+		line-height: 10rem;
+	}
+
+	.scroll-asset {
+		width: 15rem;
+	}
+
+	.logo,
+	.logo:hover {
+		background-size: 4.2rem;
+		transform: translate(0px, -5px);
+		-webkit-transform: translate(0px, -5px);
+		-moz-transform: translate(0px, -5px);
+		-ms-transform: translate(0px, -5px);
+		-o-transform: translate(0px, -5px);
+	}
+
+}
+
+@media only screen and (max-width: 478px) {
+
+	html,
+	body {
+		font-size: 6px;
+	}
+
+	section {
+		height: 100%;
+	}
+
+	.nav {
+		height: 42px;
+	}
+
+	.intro {
+		font-size: 5.2rem;
+	}
+
+	.toggleMenu,
+	.toggleMenu:hover,
+	.toggleMenu.active {
+		width: 3.8rem;
+		height: 3.8rem;
+		background-size: 3.8rem;
+		transform: translate(86vw, -4.5rem);
+		-webkit-transform: translate(86vw, -4.5rem);
+		-moz-transform: translate(86vw, -4.5rem);
+		-ms-transform: translate(86vw, -4.5rem);
+		-o-transform: translate(86vw, -4.5rem);
+	}
+
+	.tile1 {
+		transform: translate(34vw, 13vh);
+		font-size: 10rem;
+	}
+
+}
+
+@media only screen and (max-width: 380px) {
+
+	html,
+	body {
+		font-size: 5.2px;
+	}
+
+	.card {
+		margin-left: 8%;
+	}
+
+	.name {
+		transform: translate(38vw, 6px);
+		font-size: 1.6rem;
+	}
+
+	.toggleMenu,
+	toggleMenu:hover,
+	toggleMenu.active {
+		transform: translate(86vw, -3.5rem);
+	}
+
+	.logo,
+	.logo:hover {
+		transform: translate(0, -2px);
+	}
+
+	section {
+		padding-left: 2rem;
+	}
+
+	.scroll-asset {
+		width: 10rem;
+	}
+}
+
+@media only screen and (max-width: 334px) {
+
+	html,
+	body {
+		font-size: 4.5px;
+	}
+
+	.intro,
+	.about-sec p {
+		font-size: 2.8rem;
+	}
+
+}
+
+@media only screen and (max-width: 294px) {
+
+	.el1 {
+		transform: translate(12vw, 0em);
+		-webkit-transform: translate(12vw, 0em);
+		-moz-transform: translate(12vw, 0em);
+		-ms-transform: translate(12vw, 0em);
+		-o-transform: translate(12vw, 0em);
+	}
+
+	.el2 {
+		transform: translate(12vw, 2em);
+		-webkit-transform: translate(12vw, 2em);
+		-moz-transform: translate(12vw, 2em);
+		-ms-transform: translate(12vw, 2em);
+		-o-transform: translate(12vw, 2em);
+	}
+
+	.el3 {
+		transform: translate(12vw, 4em);
+		-webkit-transform: translate(12vw, 4em);
+		-moz-transform: translate(12vw, 4em);
+		-ms-transform: translate(12vw, 4em);
+		-o-transform: translate(12vw, 4em);
+	}
+
+	.nav-el {
+		font-size: 4rem;
+	}
+
+}
+
+/* 
+@media only screen and (max-width: 800px) and (min-height: 1100px) {
+
+} */
