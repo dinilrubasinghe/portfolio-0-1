@@ -703,6 +703,10 @@
 		height: 100%;
 	}
 
+	.card {
+		margin-left: 8%;
+	}
+	
 	.nav {
 		height: 42px;
 	}
@@ -736,10 +740,6 @@
 	html,
 	body {
 		font-size: 5.2px;
-	}
-
-	.card {
-		margin-left: 8%;
 	}
 
 	.name {
@@ -812,8 +812,3 @@
 	}
 
 }
-
-/* 
-@media only screen and (max-width: 800px) and (min-height: 1100px) {
-
-} */
