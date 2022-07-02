@@ -683,12 +683,35 @@
 	.logo,
 	.logo:hover {
 		background-size: 4.2rem;
-		transform: translate(0px, -5px);
-		-webkit-transform: translate(0px, -5px);
-		-moz-transform: translate(0px, -5px);
-		-ms-transform: translate(0px, -5px);
-		-o-transform: translate(0px, -5px);
+		transform: translate(0px, -2px);
+		-webkit-transform: translate(0px, -2px);
+		-moz-transform: translate(0px, -2px);
+		-ms-transform: translate(0px, -2px);
+		-o-transform: translate(0px, -2px);
 	}
+
+	.toggleMenu,
+	.toggleMenu:hover,
+	.toggleMenu.active {
+		transform: translate(86vw, -4.2rem);
+		width: 3.5rem;
+		height: 3.5rem;
+		background-size: 3.5rem;
+		-webkit-transform: translate(86vw, -4.2rem);
+		-moz-transform: translate(86vw, -4.2rem);
+		-ms-transform: translate(86vw, -4.2rem);
+		-o-transform: translate(86vw, -4.2rem);
+	}
+
+	.name {
+		font-size: 2rem;
+		transform: translate(35vw, 6px);
+		-webkit-transform: translate(35vw, 6px);
+		-moz-transform: translate(35vw, 6px);
+		-ms-transform: translate(35vw, 6px);
+		-o-transform: translate(35vw, 6px);
+	}
+
 
 }
 
@@ -706,7 +729,7 @@
 	.card {
 		margin-left: 8%;
 	}
-	
+
 	.nav {
 		height: 42px;
 	}
